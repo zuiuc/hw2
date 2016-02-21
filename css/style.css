@@ -35,6 +35,7 @@ h2 {
   color: #999;
   line-height: 29px;
   padding: 10px;
+  text-align: center;
 }
 
 h3 {
@@ -289,4 +290,9 @@ li a:hover:not(.active) {
 li a.active {
     color: white;
     background-color: #003366;
+}
+
+#website_title{
+  font-weight:900;
+  font-size: 400%;
 }
