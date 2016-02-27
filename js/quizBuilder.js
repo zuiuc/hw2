@@ -43,13 +43,13 @@ function select_question() {
     var n = d.getDay();
     //console.log(n);
     if (n==7){
-        question = qiQuestions;
+        question = mathQuestions;
     } else if ( n%2 == 0) {
         question = geoQuestions;
     } else {
         question = wotQuestions;
     }
-    //console.log(question[0].score);
+    console.log(JSON.stringify(shuffle(question)));
 };
 
     select_question();

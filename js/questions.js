@@ -4,53 +4,80 @@ var geoQuestions = [
 	"questionType": 1,
 	"choices": ["Africa", "N.America", "S.America", "Asia", "Australia"],
 	"correctChoice": "Asutralia",
-	"score": 12
+	"score": 10
+},
+{
+	"question": "Where is United States?",
+	"questionType": 1,
+	"choices": ["Africa", "N.America", "S.America", "Asia", "Australia"],
+	"correctChoice": "N.America",
+	"score": 10
+},
+{
+	"question": "Where is Brazil?",
+	"questionType": 1,
+	"choices": ["Africa", "N.America", "S.America", "Asia", "Australia"],
+	"correctChoice": "S.America",
+	"score": 10
+},
+{
+	"question": "Where is the great Barrier Reef?",
+	"questionType": 1,
+	"choices": ["Africa", "N.America", "S.America", "Asia", "Australia"],
+	"correctChoice": "Asutralia",
+	"score": 10
 },
 {
 	"question": "Where is the Greatwall?",
 	"questionType": 1,
 	"choices": ["Africa", "N.America", "S.America", "Asia", "Australia"],
 	"correctChoice": "Asia",
-	"score": 12
+	"score": 10
 },
 {
 	"question": "Where is the Mt. Fuji?",
 	"questionType": 1,
 	"choices": ["Japan", "China", "United States", "Canada", "Australia"],
 	"correctChoice": "Asutralia",
-	"score": 12
+	"score": 10
 },
 {
 	"question": "Where is the great Barrier Reef?",
 	"questionType": 1,
 	"choices": ["Africa", "N.America", "S.America", "Asia", "Australia"],
 	"correctChoice": "Asutralia",
-	"score": 12
+	"score": 10
 },
 {
-	"question": "Where is the great Barrier Reef?",
+	"question": "Where is the Japan?",
 	"questionType": 1,
 	"choices": ["Africa", "N.America", "S.America", "Asia", "Australia"],
-	"correctChoice": "Asutralia",
-	"score": 12
+	"correctChoice": "Asia",
+	"score": 10
 },
 {
 	"question": "What planet is Curiosity Rover on now?",
 	"questionType": 2,
 	"correctAnswer": "Mars",
-	"score": 20
+	"score": 10
 },
 {
-	"question": "What planet is Curiosity Rover on now?",
+	"question": "What is China bigger than Russia? Yes/No",
 	"questionType": 2,
-	"correctAnswer": "Mars",
-	"score": 20
+	"correctAnswer": "No",
+	"score": 10
+},
+{
+	"question": "What planet is Curiosity created?",
+	"questionType": 2,
+	"correctAnswer": "Earth",
+	"score": 10
 }];
 
 
 
 
-var qiQuestions = [
+var mathQuestions = [
 {
 	"question": "Where is the great Barrier Reef?",
 	"questionType": 1,
