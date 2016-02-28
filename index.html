@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="utf-8">
@@ -14,14 +15,39 @@
 
     <body>
     	<div class="container">
-	    	<div class="row">
+	       <div class="row">
+	                <div class="col2" id="scu"><a href="http://scu.edu"><img  class="img-responsive" width = "150" height ="100" src="images/scu.jpg" alt="SCU Logo"></a></div>
+	                <div class="col2" id="uiuc"><a href="http://uiuc.edu"><img class="img-responsive" width = "150" height ="100" src="images/uiuc.gif" alt="UIUC Logo"></a></div>
+	                <div class="col8">
+	                    <h1 id="name">QI ZHAO</h1>
+	                    <h4>FRONT-END APPRENTICE</h4>
+	                </div>
+	      	</div>
+	      	<hr>
+
+	    	<div class="row grey">
 	    		<div class="col12"><h1 id="website_title">Web Quiz</h1></div>
 	    	</div>
 
 	    	<div class="row">
-	    		<div class="col4" id="category"><h1>Category</h1><h2>Place holder Category</h2></div>
+	    		<div class="col4" id="category"><h1>Category</h1><h2 id="cat"></h2></div>
 	    		<div class="col4" ><h1>Date</h1><h2 id="date"></h2></div>
-	    		<div class="col4"><h1>Timer</h1><h2 id="counter"></h2></div>
+	    		<div class="col4 timer"><h1>Timer</h1><h2 id="counter"></h2></div>
+	    	</div>
+
+	    	<div class="row grey" id="press_start">
+	    		<h1>Press Start Button to Start your 10 mins Quiz!</h1>
+	    	</div>
+
+	    	<div class="row" id="score_section" style="display:none;">
+	    		<div class="row grey">
+	    			<div class="col12"><h1>Score</h1><h2 id="score">0</h2></div>
+	    		</div>
+
+	    		<div class="row grey">
+	    			<div class="col6"><h1>Correct</h1><h2 id="correct">0</h2></div>
+	    			<div class="col6"><h1>Wrong</h1><h2 id="wrong">0</h2></div>
+	    		</div>
 	    	</div>
 
 	    	<div class="row">
@@ -29,12 +55,12 @@
 	    	</div>
 
 	    	<div class="row">
-	    		<div class="col8"></div>
-	    		<div class='button col1' id='next'><a href='#'>Next</a></div>
-	    		<div class='button col1' id='prev'><a href='#'>Prev</a></div>
-	    		<div class='button col1' id='start'> <a href='#'>Start Over</a></div>
-	    	</div>	    	
-
+	    		<div class="col9"></div>
+	    		<div class='button col1' id='start'><a href='#'>Start</a></div>
+	    		<div class='button col1' id='next' style="display:none;"><a href='#'>Next</a></div>
+	    		<div class='button col1' id='quit'> <a href='#'>Quit</a></div>
+	    	</div>
+	    	<br><br>
 	    	<!-- this is the footer part of code -->
 		    <div class="grey row">
 		        <div id="connect">Designed by Qi Zhao</div>
